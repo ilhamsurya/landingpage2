@@ -59,7 +59,7 @@ const ShowcaseFeature = ({ onPress }) => {
             <Image
               source={require('../../../assets/logo/white.png')}
               style={{
-                width: undefined,
+                width: '100%',
                 height: undefined,
                 resizeMode: 'contain',
                 flex: 1,

@@ -12,18 +12,18 @@ import { Col, Row, Grid } from 'react-native-easy-grid';
 
 const cards = [
     {
-        text: 'Card One',
+        text: '...',
         name: 'One',
         image: require('../../../assets/showcase/umrah.jpg'),
     },
     {
-        text: 'Card Two',
+        text: '...',
         name: 'Two',
         image: require('../../../assets/showcase/haji.jpg'),
     },
 
     {
-        text: 'Card Three',
+        text: '...',
         name: 'Three',
         image: require('../../../assets/showcase/umrah+.jpg'),
     },
@@ -121,7 +121,7 @@ const Swiper = (props) => {
                                 <Thumbnail source={item.image} />
                                 <Body>
                                     <Text>{item.text}</Text>
-                                    <Text note>NativeBase</Text>
+                                    <Text note>Abada</Text>
                                 </Body>
                             </Left>
                         </CardItem>
@@ -145,10 +145,10 @@ const TextChoice = (props) => {
         <Content>
             <Item>
                 <Icon active name='home' />
-                <Input placeholder='Icon Textbox' />
+                <Input placeholder='Masukan alamat rumah anda' />
             </Item>
             <Item>
-                <Input placeholder='Icon Alignment in Textbox' />
+                <Input placeholder='Catat kebutuhan anda' />
                 <Icon active name='swap' />
             </Item>
         </Content>
@@ -164,19 +164,19 @@ const Check = (props) => {
             <ListItem>
                 <CheckBox checked={true} />
                 <Body>
-                    <Text>Daily Stand Up</Text>
+                    <Text>Pilih</Text>
                 </Body>
             </ListItem>
             <ListItem>
                 <CheckBox checked={false} />
                 <Body>
-                    <Text>Discussion with Client</Text>
+                    <Text>Pesan</Text>
                 </Body>
             </ListItem>
             <ListItem>
                 <CheckBox checked={false} color="green" />
                 <Body>
-                    <Text>Finish list Screen</Text>
+                    <Text>Finish</Text>
                 </Body>
             </ListItem>
         </Content>
@@ -193,11 +193,11 @@ const ProfileScreen = (props) => {
                         <Thumbnail source={require('../../../assets/showcase/profile1.jpg')} />
                     </Left>
                     <Body>
-                        <Text>Kumar Pratik</Text>
-                        <Text note>Doing what you like will always keep you happy . .</Text>
+                        <Text>Lol Mastah</Text>
+                        <Text note>Ibadah Everyday...</Text>
                     </Body>
                     <Right>
-                        <Text note>3:43 pm</Text>
+                        <Text note>14:00</Text>
                     </Right>
                 </ListItem>
             </List>
